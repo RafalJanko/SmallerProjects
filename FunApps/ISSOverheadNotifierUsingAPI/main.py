@@ -48,7 +48,7 @@ while True:
             connection.starttls()
             connection.login(user=my_email, password=password)
             connection.sendmail(from_addr=my_email,
-                                to_addrs="rafal.testing11@gmail.com",
+                                to_addrs="YOUR EMAIL",
                                 msg="Subject:ISS above, look up!\n\nPlease look up!"
                                 )
             connection.close()
